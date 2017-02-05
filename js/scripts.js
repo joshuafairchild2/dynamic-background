@@ -4,9 +4,9 @@ $(function() {
     $("body").addClass("green-background");
   });
 
-  $("button#light-blue").click(function() {
+  $("button#blue").click(function() {
     $("body").removeClass();
-    $("body").addClass("light-blue-background");
+    $("body").addClass("blue-background");
   });
 
   $("button#orange").click(function() {
@@ -27,5 +27,20 @@ $(function() {
   $("button#monospace").click(function() {
     $("body").removeClass("tnr cursive");
     $("body").addClass("monospace");
+  });
+
+  $("button#purple").click(function() {
+    $("h3").removeClass("pink-font red-font");
+    $("h3").addClass("purple-font");
+  });
+
+  $("button#pink").click(function() {
+    $("h3").removeClass("purple-font red-font");
+    $("h3").addClass("pink-font");
+  });
+
+  $("button#red").click(function() {
+    $("h3").removeClass("purple-font pink-font");
+    $("h3").addClass("red-font");
   });
 });

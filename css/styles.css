@@ -2,6 +2,12 @@ body {
   background-color: #c8bcdb;
 }
 
+h3 {
+  font-weight: bolder;
+  font-size: 30pt;
+  height: 180px;
+}
+
 .container {
   text-align: center;
 }
@@ -10,8 +16,8 @@ body {
   background-color: green;
 }
 
-.light-blue-background {
-  background-color: lightblue;
+.blue-background {
+  background-color: blue;
 }
 
 .orange-background {
@@ -28,4 +34,31 @@ body {
 
 .monospace {
   font-family: monospace;
+}
+
+.purple-font {
+  color: purple;
+}
+
+.pink-font {
+  color: pink;
+}
+
+.red-font {
+  color: red;
+}
+
+#purple {
+  background-color: purple;
+  color: white;
+}
+
+#pink {
+  background-color: pink;
+  color: black;
+}
+
+#red {
+  background-color: red;
+  color: white;
 }
