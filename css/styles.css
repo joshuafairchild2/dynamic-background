@@ -1,0 +1,31 @@
+body {
+  background-color: #c8bcdb;
+}
+
+.container {
+  text-align: center;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.light-blue-background {
+  background-color: lightblue;
+}
+
+.orange-background {
+  background-color: orange;
+}
+
+.tnr {
+  font-family: times;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.monospace {
+  font-family: monospace;
+}
